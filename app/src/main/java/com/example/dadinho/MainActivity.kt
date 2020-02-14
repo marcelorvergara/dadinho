@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn6.setOnClickListener{ rollDice(4) }
+        btn6.setOnClickListener{ rollDice(6) }
 
         btn4.setOnClickListener{ rollDice(4) }
 
@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
         val randomInt = Random.nextInt(num)+1
         result.text = randomInt.toString()
         val enum = randomInt.toString()
-        resultados.append("\t $enum \n")
+        resultados.text = "\tDado $num : $enum \n" + resultados.text
     }
 }
