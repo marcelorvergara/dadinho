@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dado</string>
+    <string name="d4">1 a 4</string>
+    <string name="d6">1 a 6</string>
+    <string name="d10">1 a 10</string>
+    <string name="d20">1 a 20</string>
+</resources>
